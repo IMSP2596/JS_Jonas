@@ -8,3 +8,10 @@ const  bmiJohn=(weightJohn/heightJohn**2)*100000;
 
 const  markHigherBMI=bmiMark>bmiJohn;
 console.log(bmiMark,bmiJohn,markHigherBMI,`🤞🤞🤞`);
+
+if(bmiMark>bmiJohn){
+    console.log(`Marks BMI ${bmiMark} is greater than John's BMI ${bmiJohn}`)
+}
+else{
+    console.log(`John's BMI ${bmiJohn} is greater than Marks's BMI ${bmiMark}`)
+}
